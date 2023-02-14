@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    background-color: #edf2f4;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    padding-right: 1rem;
+    justify-content: flex-end;
+}
+
+nav a {
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.namePhoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name {
+    text-align: right;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+img {
+    width: 15rem;
+    margin: 2rem 0;
+    border-radius: 50%;
+}
