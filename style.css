@@ -22,12 +22,12 @@ nav {
 
 nav a {
     padding: 1rem;
+    font-size: 1rem;
 }
 
 a {
     text-decoration: none;
     color: black;
-    font-size: 1rem;
 }
 
 a:hover {
@@ -49,6 +49,7 @@ main {
     justify-content: space-around;
     align-items: center;
     margin-top: 2rem;
+    font-family: "Helvetica Neue", Helvetica, Arial;
 }
 
 .name {
@@ -65,7 +66,7 @@ h3 {
 
 img {
     width: 15rem;
-    margin: 2rem 0;
+    margin: 2rem 1rem;
     border-radius: 50%;
 }
 section {
@@ -79,4 +80,48 @@ h2 {
 p {
     line-height: 1.5;
     text-indent: 1.5rem;
+}
+
+ul {
+    margin-left: 3rem;
+}
+
+b {
+    color: #4b3fb0;
+}
+
+em {
+    color: #048f47;
+}
+
+#skills li:first-child {
+    font-size: 24px;
+}
+
+#skills li:nth-child(2) {
+    font-size: 22px;
+}
+
+#skills li:nth-child(3) {
+    font-size: 20px;
+}
+
+#skills li:nth-child(4) {
+    font-size: 18px;
+}
+
+#skills li:nth-child(5) {
+    font-size: 16px;
+}
+
+#skills li:nth-child(6) {
+    font-size: 14px;
+}
+
+#skills li:last-child {
+    font-size: 12px;
+}
+
+#links a {
+    color: #4b3fb0;
 }
