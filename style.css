@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    background-color: #dfe4e7;
+    background-color: #9693af;
     position: fixed;
     width: 100%;
     display: flex;
@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-    background-color: #adb1b3;
+    background-color: #c0bdd9;
 }
 
 a:active {
@@ -50,6 +50,7 @@ main {
     align-items: center;
     margin-top: 2rem;
     font-family: "Helvetica Neue", Helvetica, Arial;
+    height: 100vh;
 }
 
 .name {
@@ -63,18 +64,43 @@ h1 {
 h3 {
     font-size: 2rem;
 }
+#photo {
+    background-color: #9693af;
+    height: 90%;
+    display: flex;
+    position: relative;
+    top: -2rem;
+    right: -2rem;
 
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
 img {
     width: 15rem;
+    height: 15rem;
     margin: 2rem 1rem;
     border-radius: 50%;
+    border: 15px double #c0bdd9;
 }
+
 section {
     margin-bottom: 3rem;
 }
+
+#about-photo,
+#skills {
+    display: flex;
+    height: 100vh;
+    padding-top: 6rem;
+}
+
 h2 {
     font-size: 3rem;
     padding: 1rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
 }
 
 p {
@@ -90,11 +116,15 @@ b {
     color: #4b3fb0;
 }
 
-em {
+/* em {
     color: #048f47;
+} */
+
+#skills {
+    flex-direction: column;
 }
 
-#skills li:first-child {
+/* #skills li:first-child {
     font-size: 24px;
 }
 
@@ -120,6 +150,12 @@ em {
 
 #skills li:last-child {
     font-size: 12px;
+}
+ */
+
+#skills li:nth-child(odd) {
+    font-size: 22px;
+    color: #4b3fb0;
 }
 
 #links a {
