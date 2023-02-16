@@ -89,7 +89,8 @@ section {
 }
 
 #about-photo,
-#skills {
+#skills,
+#links {
     display: flex;
     height: 100vh;
     padding-top: 6rem;
@@ -120,7 +121,8 @@ b {
     color: #048f47;
 } */
 
-#skills {
+#skills,
+#links {
     flex-direction: column;
 }
 
